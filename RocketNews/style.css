@@ -1,0 +1,90 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+* {
+    margin: 0 auto;
+    
+    background-color: var(--body-bg-color);
+
+    background-image: url(assets/readNews.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: right;
+    background-size: 50% 100%;
+}
+
+.logo {
+    margin: 50px 0 0 30px;
+}
+
+.container {
+    color: var(--text-color);
+
+    margin-top: 92px;
+    margin-left: 36px;
+
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--title-color);
+}
+
+strong {
+    font-weight: 700;
+    line-height: 16px;
+}
+
+
+form {
+    margin: 50px 0;
+
+    color: var(--form-color);
+
+    font-weight: 700;
+}
+
+form>input {
+    background-color: #fff;
+    width: 30%;
+    border: none;
+
+    padding: 4px;
+    padding-top: 13px;
+
+    outline:none
+}
+
+form>button {
+    margin: 0 0 0 -5px;
+    color: #fff;
+    border: none;
+    padding: 4px 10px;
+    cursor: pointer;
+
+    background-color: var(--bg-button-color)
+}
+
+
+a {
+    font-weight: 700;
+    font-size: 14px;
+
+    text-decoration: none;
+
+    color: var(--bg-button-color);
+}
