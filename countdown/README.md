@@ -23,10 +23,10 @@ Site para contagem regressiva de algum evento específico, com botão de cadastr
 
 # :calendar: Editar data do evento
 
-Caso queira escolher outra data para o evento basta mudar a váriavel dateEvent.
+Caso queira escolher outra data para o evento basta mudar a váriavel dateEvent com formato mm/dd/yyyy.
 
 ```js
-const dateEvent = new Date("15/08/2022 23:59:59")
+const dateEvent = new Date("08/10/2022 23:59:59")
 ```
 # :arrow_forward: Instação e execucução
 

@@ -36,7 +36,7 @@ export default function App() {
   }
 
   useEffect(() => {
-    const dateEvent = new Date("15/08/2022 23:59:59");
+    const dateEvent = new Date("08/10/2022 23:59:59");
 
     const interval = setInterval(() => {
       const now = new Date();
